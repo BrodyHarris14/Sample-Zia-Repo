@@ -1,0 +1,202 @@
+<!--
+Name:				Brody Harris
+Assignment:			Band page
+FileNAme:			Know.html
+Craeted:			3/13/16
+Update:				3/13/16
+-->
+
+
+<!DOCTYPE html>
+<html style="height:100%;">
+    <head>
+        <title>Avicii</title>
+    
+        <link rel="stylesheet" type="text/css" href="aviciistyle.css">
+    
+    
+    </head>
+    
+    <body>
+    
+        <table style="width:100%; height:100%;">
+            <tr class="top">
+                <td>
+                    <img style=" border-radius:7px; border-color: white;" alt="A picture of Avicii himself" src="avicii.jpg" border="7" height="150">
+                    <br/>
+                    <h1>What do you know about Avicii?</h1>
+                </td>
+            </tr>
+            <tr>
+                <td class="content" style="width: 30%; background-color:lightgrey; text-align:center">
+                    <center>
+                    <form action="FormProcessor.html" method="get" enctype="application/x-www-form-urlencoded">
+                        <table class =""style="text-align:center;">
+                            
+                         <colgroup>
+                                <col style="align:left">
+                                <col style="background-color:dodgerblue">
+                         </colgroup>
+                        
+                            <tr>
+                                <td>What is Avicii's real first name?</td>
+                                <td><input name="name" type="text" maxlength="20"></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Where was he born?</td>
+                                <td><input name="whereborn" type="text" maxlength="20"></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>When was he born?</td>
+                                <td><select name="bornM">
+                                    <option value="Jan">January</option>
+                                    <option value="Feb">February</option>
+                                    <option value="Mar">March</option>
+                                    <option value="Apr">April</option>
+                                    <option value="May">May</option>
+                                    <option value="Jun">June</option>
+                                    <option value="Jul">July</option>
+                                    <option value="Aug">August</option>
+                                    <option value="Seop">September</option>
+                                    <option value="OCt">October</option>
+                                    <option value="Nov">November</option>
+                                    <option value="Dec">December</option>
+                                </select>
+                                <select name="bornD">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="12">13</option>
+                                    <option value="12">14</option>
+                                    <option value="12">15</option>
+                                    <option value="12">16</option>
+                                    <option value="12">17</option>
+                                    <option value="12">18</option>
+                                    <option value="12">19</option>
+                                    <option value="12">20</option>
+                                    <option value="12">21</option>
+                                    <option value="12">22</option>
+                                    <option value="12">23</option>
+                                    <option value="12">24</option>
+                                    <option value="12">25</option>
+                                    <option value="12">26</option>
+                                    <option value="12">27</option>
+                                    <option value="12">28</option>
+                                    <option value="12">29</option>
+                                    <option value="12">33</option>
+                                    <option value="12">31</option>
+                                </select>
+                                <select name="bornY">
+                                    <option value="2016">1991</option>
+                                    <option value="2015">1990</option>
+                                    <option value="2014">1989</option>
+                                    <option value="2013">1988</option>
+                                    <option value="2012">1987</option>
+                                </select></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>What is his most popular song?</td>
+                                <td><select name="Popular">
+                                    <option value="sun">Sunshine</option>
+                                    <option value="lev">Levels</option>
+                                    <option value="icould">I could be the one</option>
+                                    <option value="wake">Wake me up</option>
+                                    <option value="xyou">X You</option>
+                                </select></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>What was the name of his first album?</td>
+                                <td><input name="album" type="text" maxlength="20"></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>What two songs did he recieve grammy nominations for?</td>
+                                <td style="color:white;">
+                                    <input type="checkbox" name="grammy" value="Sunshine">Sunshine
+                                    <br/>
+                                    <input type="checkbox" name="grammy" value="Levels">Levels
+                                    <br/>
+                                    <input type="checkbox" name="grammy" value="wake">Wake me up
+                                    <br/>
+                                    <input type="checkbox" name="grammy" value="xYou">X You
+                                    <br/>
+                                    <input type="checkbox" name="grammy" value="Icould">I Could Be The One
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>What was his DJ ranking in 2015?</td>
+                                <td><select id="rank">
+                                    <option value="1">First</option>
+                                    <option value="2">Second</option>
+                                    <option value="3">Third</option>
+                                    <option value="4">Fourth</option>
+                                    <option value="5">Fifth</option>
+                                    <option value="6">Sixth</option>
+                                    <option value="7">Seventh</option>
+                                </select></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>What award did he win in 2013, but was only nominated forr in 2014?</td>
+                                <td><input name="2013Award" type="text" maxlength="20"></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Which one of his songs won "Top Dance/Electronic Song" in 2014?</td>
+                                <td><select name="2014topsong">
+                                    <option value="sun">Sunshine</option>
+                                    <option value="lev">Levels</option>
+                                    <option value="icould">I could be the one</option>
+                                    <option value="wake">Wake me up</option>
+                                    <option value="xyou">X You</option>
+                                    </select></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Has Avicii been a DJ all his life?</td>
+                                <td style="color:white">
+                                    <input type="radio" name="Dj" value="true">True
+                                    <input type="radio" name="Dj" value="false">False
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td colspan="2">
+                                    <input type="submit" value="Submit">
+                                    <input type="reset" value="Reset">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <button style="color:dodgerblue;" type="button" onClick="javascript: history.go(-1)">Home</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+            </center>
+                </td>
+                
+            </tr>
+        </table>
+    
+    
+    </body>
+
+
+
+</html>
+

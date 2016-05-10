@@ -1,0 +1,125 @@
+<!--
+Name:				Brody Harris
+Assignment:			Band page
+FileNAme:			Opinion.html
+Craeted:			3/13/16
+Update:				3/13/16
+-->
+
+
+<!DOCTYPE html>
+<html style="height:100%;">
+    <head>
+        <title>Avicii</title>
+    
+        <link rel="stylesheet" type="text/css" href="aviciistyle.css">
+    
+    
+    </head>
+    
+    <body>
+    
+        <table style="width:100%; height:100%;">
+            <tr class="top">
+                <td>
+                    <img style=" border-radius:7px; border-color: white;" alt="A picture of Avicii himself" src="avicii.jpg" border="7" height="150">
+                    <br/>
+                    <h1>Whats your opinion of Avicii?</h1>
+                </td>
+            </tr>
+            <tr>
+                <td class="content" style="width: 30%; background-color:lightgrey; text-align:center">
+                    <center>
+                    <form action="FormProcessor.html" method="get" enctype="application/x-www-form-urlencoded">
+                        <table class =""style="text-align:center;">
+                            
+                         <colgroup>
+                                <col style="align:left">
+                                <col style="background-color:dodgerblue">
+                         </colgroup>
+                        
+                           <tr>
+                                <td>Whats your favorite Avicii song?</td>
+                                <td style="color:white;">
+                                    <select name="favsong">
+                                    <option>Sunshine</option>
+                                    <option>Levels</option>
+                                    <option>I Could Be The One</option>
+                                    <option>Wake Me Up</option>
+                                    <option>X You</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Whats your favorite Avicii Album?</td>
+                                <td style="color:white;">
+                                    <input type="radio" name="favalbum" value="true">True
+                                    <br/>
+                                    <input type="radio" name="favalbum" value="stories">Stories
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Would you go to an Avicii concert?</td>
+                                <td style="color:white;">
+                                    <input type="radio" name="concert" value="yes">Yes
+                                    <br/>
+                                    <input type="radio" name="concert" value="no">No
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Have you bought any Avicii Songs?</td>
+                                <td style="color:white;">
+                                    <input type="radio" name="bought" value="yes">Yes
+                                    <br/>
+                                    <input type="radio" name="bought" value="no">No
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>If so, which songs?</td>
+                                <td style="color:white;">
+                                    <input type="radio" name="boughtsong" value="Sunshine">Sunshine
+                                    <br/>
+                                    <input type="radio" name="boughtsong" value="Levels">Levels
+                                    <br/>
+                                    <input type="radio" name="boughtsong" value="wake">Wake me up
+                                    <br/>
+                                    <input type="radio" name="boughtsong" value="xYou">X You
+                                    <br/>
+                                    <input type="radio" name="boughtsong" value="Icould">I Could Be The One
+                                    <br/>
+                                </td>
+                            </tr>
+                            
+                            
+                            
+                            
+                            
+                            <tr>
+                                <td colspan="2">
+                                    <input type="submit" value="Submit">
+                                    <input type="reset" value="Reset">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <button style="color:dodgerblue;" type="button" onClick="javascript: history.go(-1)">Home</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+            </center>
+                </td>
+                
+            </tr>
+        </table>
+    
+    
+    </body>
+
+
+
+</html>
